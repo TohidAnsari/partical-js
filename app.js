@@ -15,7 +15,7 @@ let hue = 0;
 canvas.addEventListener('mousemove', function(e){
     mouse.x = e.x;
     mouse.y = e.y;
-    for(let i = 0; i < 3; i++){
+    for(let i = 0; i < 60; i++){
         particalArray.push(new Partical());
     }
     handelParticals();
